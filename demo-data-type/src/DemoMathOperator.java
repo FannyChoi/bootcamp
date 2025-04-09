@@ -43,6 +43,25 @@ public class DemoMathOperator {
       }
         System.out.println("Number for even number between 0-9=" + counter);
       
-      
-    }
-  }
+        // Larger Number
+        int num1 = 100;
+        int num2 = 12;
+
+        int max = 0;
+        if (num1 > num2) {
+          max = num1;
+        } else {
+          max = num2;
+        }
+        System.out.println(max);
+
+        // Largest number between 3 numbers
+        int num3 = 13;
+        if (max > num3) {
+          max = num3;
+        }
+        System.out.println(max);
+        } 
+       }
+    
+  
