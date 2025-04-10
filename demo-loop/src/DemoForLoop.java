@@ -81,7 +81,9 @@ public class DemoForLoop {
 
             // continue
             for (int i = 0; i < 3; i++) {
-                if (i % 2 ==1){}
+                if (i % 2 ==1){
+                    continue;
+                }
                 System.out.println(i);
             }
 
@@ -100,7 +102,7 @@ public class DemoForLoop {
                 System.out.println(i); // 0,1
             }
 
-            
+
             }
         }  
     

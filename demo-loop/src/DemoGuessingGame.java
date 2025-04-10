@@ -14,7 +14,9 @@ public class DemoGuessingGame {
             input = scanner.nextInt();
             // Validate input if it is valid
             // Adjust the range of numbers
-            if (input >= min && input <= max){
+            if (input < min || input > max){
+                continue;
+            }
                 if (input > bomb){
                     max = input - 1;
                 } else {
@@ -31,4 +33,3 @@ public class DemoGuessingGame {
         System.out.println("Game end. User " + user + " win.");
         scanner.close();
     }
-}
