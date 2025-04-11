@@ -34,6 +34,16 @@ public class DemoArray {
         System.out.println(size5[0]);
         System.out.println(arr3[3]);
 
+
+        // string array
+        // size 3, with 3 string value
+        String[] str3 = new String[3];
+        str3[0] = "hello";
+        str3[1] = "world";
+        str3[2] = "everyone!";
+
+        System.out.println(str3[0]+" "+str3[1]+" "+str3[2]);
+
         // read
     }
 }
