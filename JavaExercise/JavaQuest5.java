@@ -20,6 +20,8 @@ public class JavaQuest5 {
         System.out.println("not Found");
       }
   }
+    int lastIndex = str.lastIndexOf(target);
+    System.out.println("The index of the last character of c is "+lastIndex);
 
+    }
   }
-}
