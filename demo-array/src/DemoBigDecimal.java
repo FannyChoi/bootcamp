@@ -21,5 +21,7 @@ public class DemoBigDecimal {
     //! divide()
     BigDecimal bd6 = bd3.divide(bd1);
     System.out.println(bd6);
+    // 10/3 ??
+    // rounding? 3.45 -> 3.4 (HALF_DOWN)? 3.45 -> 3.5 (HALF_UP)
   }
 }
