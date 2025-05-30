@@ -13,7 +13,7 @@ public class Customer { // blueprint
   }
   public void setEmail(String email) {
     this.email = email;
-  }
+  } 
   // Getter
   public String getName(){
     return this.name;
